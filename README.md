@@ -15,9 +15,13 @@ A fun and practical computer vision project to control your system volume by sim
 ---
 
 ## 📁 Project Structure
+
 volume_control/
+
 │── volume_controller.py # Main application
+
 │── hand_volume.py # Hand tracking and volume logic
+
 │── requirements.txt # Python dependencies
 
 
@@ -33,8 +37,13 @@ python volume_controller.py
 
 
 # How It Works
+
 The webcam captures your hand.
+
 MediaPipe detects hand landmarks.
+
 Distance between thumb and index finger is calculated.
+
 Volume is adjusted using pycaw based on that distance.
+
 UI overlays provide feedback including volume bar, mute indicator, and FPS counter.
